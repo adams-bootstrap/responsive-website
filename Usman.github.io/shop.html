@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bj Media Website - Shop</title>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <!-- Bootstrap 4.3.1 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    
+    <!-- Front Awesome -->
+    <script src="https://kit.fontawesome.com/3a79f78cbd.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    
+    <nav class="navbar navbar-expand-md navbar-bg-dark fixed-top">
+        <div class="container-fluid">
+
+            <a class="nav-item nav-link" href="#" data-toggle="modal" data-target="#aboutModal"><i class="navbar-brand fas fa-user-ninja"></i></i><span class="navbar-text">Bj Media</span></a>
+
+            <a href="#" class="navbar-toggler" data-toggle="collapse" date-target="#navbar-menu"><i class="navbar-toggler-icon"></i></a>
+            <div class="navbar-collapse collapse" id="navbar-menu">
+                <div class="navbar-nav ml-auto">           
+                    <a class="nav-item nav-link" href="#home">Home</a>
+                    
+                    
+                    <div class="dropdown">
+                      <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown"id="project-dropdown" href="#projects">Projects</a>
+                      <div class="dropdown-menu project-dropdown">
+                          <h5 class="dropdown-header"><i class="fas fa-camera"></i>Photograph</h5>
+                          <a href="#projectAnchor"class="dropdown-item">Photoshop Bj</a>
+                          <a href="#projectAnchor"class="dropdown-item">Birthday Shots Bj</a>
+                          <a href="#projectAnchor"class="dropdown-item">Wedding Shots Bj</a>
+                          
+                          <div class="dropdown-divider"></div>
+
+                          <h5 class="dropdown-header"><i class="fas fa-images"></i>Digital Arts</h5>
+                          <a href="#projectAnchor"class="dropdown-item">Painting</a>
+                          <a href="#projectAnchor"class="dropdown-item">Sumudge Paint</a>
+                          <a href="#projectAnchor"class="dropdown-item">Oil Painting</a>
+                      </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#shop">Shop</a>
+                        <div class="dropdown-menu ">
+                             <h5 class="dropdown-header">Decorative Frames</h5>
+                             <a href="Shop.html"class="dropdown-item">Wall Frames</a>
+                             <a href="Shop.html"class="dropdown-item">Classic Frames</a>
+                             <a href="Shop.html"class="dropdown-item">Bj Frames</a>
+
+                        </div> 
+                    </div>
+
+                       <a class="nav-item nav-link" href="#contactAnchor"><i class="fas fa-envelope-open"></i> Contact</a>
+                </div>    
+            </div>
+         </div>  
+    </nav>
+
+    <!--About modal(hidden)-->
+    <div class="modal fade" id="aboutModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+             <div class="modal-content">
+                  <div class="modal-header">
+                       <div class="modal-title">About Me</div>
+                  </div>
+                  <div class="modal-body text-center">
+                       <img src="./images/benj.jpeg"width="150" alt="">
+                       <p>
+                          <i class="fab fa-google"></i>google
+                          <i class="fab fa-twitter"></i>twitter
+                          <i class="fab fa-facebook"></i>Facebook
+                          <i class="fab fa-instagram-square"></i>Instagram
+                       </p>
+                  </div>
+             </div>
+        </div>
+   </div>
+
+    
+  <!-- Slider -->
+     <div class="carousel slide" id="mainSlider">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                   <img class="w-100 d-block" src="./images/remu.jpg" alt="">
+               </div>
+
+               <div class="carousel-item">
+                   <img class="w-100 d-block" src="./images/shop2.jpeg" alt="">
+               </div>
+
+               </div>
+                   <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                       <span class="sr-only">Previous</span>
+                   </a>
+                   <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                       <span class="sr-only">Next</span>
+                   </a>
+               </div>
+
+           </div>
+      </div>
+
+  <!-- Content -->
+   <div class="container-fluid p-5">
+           <h1>SHOP</h1>
+
+        <div class="dropdown-divider"></div>
+           <h2>Wall Frames</h2>
+
+       <!-- cards -->
+
+      <div class="card-deck">
+          <div class="card">
+               <img class="card-img-top" src="./images/shop 1.jpeg" alt="">
+              <div class="card-body">
+                  <h6 class="card-title">Modern Frames</h6>
+                  <p class="card-text">
+                      Give you any of you choice, frame come in a wide variety of materials and designs.
+                  </p>
+
+                  <hr>
+
+                  <div class="text-center">
+                      <p>
+                         <i class="far fa-star black-star"></i>
+                         <i class="far fa-star black-star"></i>
+                         <i class="far fa-star black-star"></i>
+                         <i class="far fa-star black-star"></i>
+                         <i class="far fa-star"></i>
+                      </p>
+                  </div>
+
+                  <p class="text-center"><a class="btn btn-sm btn-secondary" href="#">Add to cart</a></p>   
+               </div>
+           </div>
+
+           <div class="card">
+                  <img class="card-img-top" src="./images/wall.jpeg" alt="">
+                 <div class="card-body">
+                      <h6 class="card-title">Wood Frames</h6>
+                      <p class="card-text">
+                          Our pictures come in variety materials including wood,plastic and even electronic.
+                      </p>
+
+                      <hr>
+
+                      <div class="text-center">
+                           <p>
+                              <i class="far fa-star black-star"></i>
+                              <i class="far fa-star black-star"></i>
+                              <i class="far fa-star"></i>
+                              <i class="far fa-star"></i>
+                              <i class="far fa-star"></i>
+                           </p>
+                       </div> 
+                       <p class="text-center"><a class="btn  btn-dark" href="#">Add to cart</a></p>   
+                 </div>
+           </div>
+
+           <div class="card">
+                <img class="card-img-top" src="./images/wall2.jpeg" alt="">
+              <div class="card-body">
+                  <h6 class="card-title">Gallery Frames</h6>
+                  <p class="card-text">
+                      Best wall gallery ideas for an artistic wall dector.
+                  </p> 
+
+                  <div class="text-center">
+                        <p>
+                            <i class="far fa-star black-star"></i>
+                            <i class="far fa-star black-star"></i>
+                            <i class="far fa-star black-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </p>
+                   </div>
+                   <p class="text-center"><a class="btn btn-sm btn-primary" href="#">Add to cart</a></p>    
+              </div>
+           </div>
+       </div>
+
+        <!-- cards -->
+
+      <div class="card-deck">
+          <div class="card">
+              <img class="card-img-top" src="./images/framing.jpeg">
+              <div class="card-body">
+                  <h6 class="card-title">Modern Frames</h6>
+                  <p class="card-text">
+                      Modern frames are the best to make your photo look great 
+                  </p> 
+                     
+                  <div class="text-center">
+                      <p>
+                         <i class="far fa-star black-star"></i>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star black-star"></i>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star"></i>
+                      </p>
+                  </div>
+                  <p class="text-center"><a class="btn btn-sm btn-primary" href="#">Add to cart</a></p>   
+             </div>
+         </div>
+
+          <div class="card">
+              <img class="card-img-top" src="./images/mainshop.jpeg">
+               <div class="card-body">
+                   <h6 class="card-title">Deepset wall Frames</h6>
+                   <p class="card-text">
+                       Deepset frames are special because they are used to emphasize the content of attracting.
+                   </p>
+                     
+                   <div class="text-center">
+                       <p>
+                          <i class="far fa-star black-star"></i>
+                          <i class="far fa-star black-star"></i>
+                          <i class="far fa-star black-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                       </p>
+                  </div>
+                  <p class="text-center"><a class="btn  btn-dark" href="#">Add to cart</a></p>   
+               </div>
+           </div>
+
+          <div class="card">
+              <img class="card-img-top" src="./images/new.jpeg">
+             <div class="card-body">
+                 <h6 class="card-title">Photo holder Frames</h6>
+                  <p class="card-text">
+                      With more rustic of decorating, a picture frame made from twigs or grapevine may be perfect.
+                  </p>
+                 
+                 <div class="text-center">
+                      <p>
+                         <i class="far fa-star black-star"></i>
+                         <i class="far fa-star black-star"></i>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star"></i>
+                      </p>
+                  </div>
+                  <p class="text-center"><a class="btn btn-sm btn-primary" href="#">More info</a></p> 
+             </div>   
+         </div>
+      </div>
+
+      <div class="dropdown-divider"></div>
+      <h2>Graphics</h2>
+
+       <!-- cards -->
+
+      <div class="card-deck">
+          <div class="card">
+               <img class="card-img-top" src="./images/bird.jpeg">
+              <div class="card-body">
+                  <h6 class="card-title">Colour models</h6>
+                  <p class="card-text">
+                      Give you best quality and attractive product with a proper lighting.
+                  </p>
+                    <div class="text-center">
+                        <p>
+                            <i class="far fa-star black-star"></i>
+                            <i class="far fa-star black-star"></i>
+                            <i class="far fa-star black-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </p>
+                   </div>
+
+                   <p class="text-center"><a class="btn btn-sm btn-primary" href="#">Add to cart</a></p>   
+               </div>
+           </div>
+
+           <div class="card">
+                <img class="card-img-top" src="./images/graphics.jpeg">
+                 <div class="card-body">
+                      <h6 class="card-title">Lossy and lossless</h6>
+                      <p class="card-text">
+                          Our editing make small touch-ups to enhance an already beautiful piece of art.
+                      </p>
+                      
+                      <div class="text-center">
+                          <p>
+                              <i class="far fa-star black-star"></i>
+                              <i class="far fa-star black-star"></i>
+                              <i class="far fa-star black-star"></i>
+                              <i class="far fa-star"></i>
+                              <i class="far fa-star"></i>
+                          </p>
+                      </div>
+                      <p class="text-center"><a class="btn  btn-dark" href="#">Add to cart</a></p>   
+                 </div>
+           </div>
+
+           <div class="card">
+                <img class="card-img-top" src="./images/SHOP 6.jpeg">
+              <div class="card-body">
+                  <h6 class="card-title">Photo manipulation</h6>
+                  <p class="card-text">
+                      There are countless yet creative ways to mount these items,when you are open to suggestion,your satisfaction is guaranteed.
+                  </p>
+
+                  <div class="text-center">
+                      <p>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star black-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                      </p>
+                  </div>
+                  <p class="text-center"><a class="btn btn-sm btn-primary" href="#">Add to cart</a></p>    
+              </div>
+           </div>
+       </div>
+
+       <div class="dropdown-divider"></div>
+       <h2>Pre-celebrate Shoots</h2>
+
+        <!-- cards -->
+
+       <div class="card-deck">
+           <div class="card">
+              <img class="card-img-top" src="./images/rewrite.jpeg">
+              <div class="card-body">
+                  <h6 class="card-title">Pre-Celemony Shoot</h6>
+                  <p class="card-text">
+                      Adding a colored mat property will help to contrast the original color of a picture.
+                  </p>
+                    
+                  <div class="text-center">
+                      <p>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star black-star"></i>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star"></i>
+                      </p>
+                  </div>
+                  <p class="text-center"><a class="btn btn-sm btn-secondary" href="#">Add to cart</a></p>   
+              </div>
+          </div>
+
+          <div class="card">
+              <img class="card-img-top" src="./images/rename.jpeg">
+              <div class="card-body">
+                  <h6 class="card-title"> Pre-Birthday Shoot</h6>
+                  <p class="card-text">
+                       We makes our limit edits like tweaking the saturation or even masking small flaws within your product.
+                  </p>
+                  
+                  <div class="text-center">
+                      <p>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star black-star"></i>
+                         <i class="far fa-star black-star"></i>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star"></i>
+                      </p>
+                  </div>
+                  <p class="text-center"><a class="btn  btn-dark" href="#">Add to cart</a></p>   
+              </div>
+          </div>
+
+          <div class="card">
+              <img class="card-img-top" src="./images/wedding.jpeg">
+             <div class="card-body">
+                  <h6 class="card-title">Pre-Wedding Shoot</h6>
+                  <p class="card-text">
+                     Give you best shoots with proctection to display your prized artwork and amazing charity.
+                  </p>
+
+                  <div class="text-center">
+                      <p>
+                         <i class="far fa-star black-star"></i>
+                         <i class="far fa-star black-star"></i>
+                         <i class="far fa-star black-star"></i>
+                         <i class="far fa-star"></i>
+                      </p>
+                  </div>                  
+                  <p class="text-center"><a class="btn btn-sm btn-primary" href="#">Add to cart</a></p>    
+             </div>
+          </div>
+      </div>
+  </div>
+
+   <footer class="container-fluid bg-dark  p-5">
+        <div class="row">
+              <div class="col-sm-3">
+                   <h6 class="text-secondary">Home</h6>
+                   <hr>
+                   <p>
+                        <a href="#">Home</a>
+                        <br><a href="#">Project</a>
+                        <br><a href="#">Contact</a>
+                   </p>
+              </div>
+ 
+              <div class="col-sm-3">
+                   <h6 class="text-secondary">Project</h6>
+                   <hr>
+                   <p>
+                        <a href="#">Photograph</a>
+                        <br><a href="#">Graphics</a>
+                        <br><a href="#">Framing</a>
+                   </p>
+              </div>
+ 
+              <div class="col-sm-3">
+                   <h6 class="text-secondary">Shop</h6>
+                   <hr>
+                   <p>
+                        <a href="#">Photograph</a>
+                        <br><a href="#">Graphics</a>
+                        <br><a href="#">Framing</a>
+                   </p>
+              </div>
+ 
+              <div class="col-sm-3" id="contactAnchor">
+                   <h6 class="text-secondary">contact</h6>
+                   <hr>
+                   <p>
+                       <i class="fas fa-at"></i> adamsabboy@gmail.com
+                   </p>
+                   <p>
+                       <i class="fab fa-google"></i>google
+                      <br><i class="fab fa-twitter"></i>twitter
+                      <br><i class="fab fa-facebook"></i>Facebook
+                     <br><i class="fab fa-instagram-square"></i>Instagram
+                   </p>
+            </div>
+ 
+        </div>
+ 
+        <p class="text-center"> Bjnocion Media &copy; 2021</p>
+   </footer>
+
+
+
+
+</body>
+</html>

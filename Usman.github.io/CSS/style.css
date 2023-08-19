@@ -1,0 +1,28 @@
+
+.navbar {
+    background-color: transparent; 
+    box-shadow: 0px 1px 10px #ccc; 
+    transition: background-color 1s ease 0s;
+    
+}
+
+.navbar.solid{
+    transition: background-color 1s ease 0s;
+}
+
+.card-text {
+    font-size: 0.8em;
+}
+
+footer p, footer a {
+    font-size: 00.9em;
+} 
+
+footer a {
+    color:#ccc
+}
+
+
+.black-star{
+    color:gold;
+}

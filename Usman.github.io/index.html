@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bj Media Website</title>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <!-- Bootstrap 4.3.1 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    
+    <!-- Front Awesome -->
+    <script src="https://kit.fontawesome.com/3a79f78cbd.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    
+    <nav class="navbar navbar-expand-md navbar-bg-dark fixed-top">
+        <div class="container-fluid">
+
+            <a class="nav-item nav-link" href="#" data-toggle="modal" data-target="#aboutModal"><i class="navbar-brand fas fa-user-ninja"></i></i><span class="navbar-text">Bj Media</span></a>
+
+            <a href="#" class="navbar-toggler" data-toggle="collapse" date-target="#navbar-menu"><i class="navbar-toggler-icon"></i></a>
+            <div class="navbar-collapse collapse" id="navbar-menu">
+                <div class="navbar-nav ml-auto">           
+                    <a class="nav-item nav-link" href="#home">Home</a>
+                    
+                    
+                    <div class="dropdown">
+                      <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown"id="project-dropdown" href="#projects">Projects</a>
+                      <div class="dropdown-menu project-dropdown">
+                          <h5 class="dropdown-header"><i class="fas fa-camera"></i>Photograph</h5>
+                          <a href="#projectAnchor"class="dropdown-item">Photograph Bj</a>
+                          <a href="#projectAnchor"class="dropdown-item">Birthday Shots Bj</a>
+                          <a href="#projectAnchor"class="dropdown-item">Wedding Shots Bj</a>
+                          
+                          <div class="dropdown-divider"></div>
+
+                          <h5 class="dropdown-header"><i class="fas fa-images"></i>Digital Arts</h5>
+                          <a href="#projectAnchor"class="dropdown-item">Painting</a>
+                          <a href="#projectAnchor"class="dropdown-item">Sumudge Paint</a>
+                          <a href="#projectAnchor"class="dropdown-item">Oil Painting</a>
+                      </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#shop">Shop</a>
+                        <div class="dropdown-menu ">
+                             <h5 class="dropdown-header">Decorative Frames</h5>
+                             <a href="Shop.html"class="dropdown-item">Wall Frames</a>
+                             <a href="Shop.html"class="dropdown-item">Classic Frames</a>
+                             <a href="Shop.html"class="dropdown-item">Bj Frames</a>
+
+                        </div> 
+                    </div>
+
+                       <a class="nav-item nav-link" href="#contactAnchor"><i class="fas fa-envelope-open"></i> Contact</a>
+                </div>    
+            </div>
+         </div>  
+    </nav>
+
+    <!--About modal(hidden)-->
+    <div class="modal fade" id="aboutModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+             <div class="modal-content">
+                  <div class="modal-header">
+                       <div class="modal-title">About Me</div>
+                  </div>
+                  <div class="modal-body text-center">
+                       <img src="./images/benj.jpeg"width="150" alt="">
+                       <p>
+                          <i class="fab fa-google"></i>google
+                          <i class="fab fa-twitter"></i>twitter
+                          <i class="fab fa-facebook"></i>Facebook
+                          <i class="fab fa-instagram-square"></i>Instagram
+                       </p>
+                  </div>
+             </div>
+        </div>
+   </div>
+
+    
+     <!-- Slider -->
+     <div class="carousel" id="mainSlider">
+          <div class="carousel-inner">
+              <img class="w-100 d-block" src="./images/background.jpeg"alt="">
+          </div>
+      </div>
+
+      <!-- Content -->
+   <div class="container-fluid p-5">
+           <h1 id="projectAnchor">PROJECT</h1>
+
+        <div class="dropdown-divider"></div>
+           <h2>Birthday Shoots</h2>
+
+       <!-- cards -->
+
+      <div class="card-deck">
+          <div class="card">
+               <img class="card-img-top" src="./images/bunmi.jpeg">
+              <div class="card-body">
+                  <h6 class="card-title">Outdoor Shoots</h6>
+                  <p class="card-text">
+                      Adding a colored mat property will help to contrast the original color of a picture.
+                  </p>
+                  <p class="text-center"><a class="btn btn-sm btn-secondary" href="#">More info</a></p>   
+               </div>
+           </div>
+
+           <div class="card">
+                  <img class="card-img-top" src="./images/sexzy.jpeg">
+                 <div class="card-body">
+                      <h6 class="card-title">Birthday Shoots</h6>
+                      <p class="card-text">
+                           We makes our limit edits like tweaking the saturation or even masking small flaws within your product.
+                      </p> 
+                      <a class="btn  btn-dark" href="#">More info</a>   
+                 </div>
+           </div>
+
+           <div class="card">
+                <img class="card-img-top" src="./images/baby.jpeg">
+              <div class="card-body">
+                  <h6 class="card-title">Birthday Shoots</h6>
+                  <p class="card-text">
+                      Give you best shoots with proctection to display your prized artwork and amazing charity.
+                  </p>
+                  <a class="btn btn-sm btn-primary" href="#">More info</a>    
+              </div>
+           </div>
+      </div>
+
+       <!-- cards -->
+
+          <div class="card-deck">
+              <div class="card">
+                  <img class="card-img-top" src="./images/shop img.jpeg">
+                  <div class="card-body">
+                      <h6 class="card-title">Gallery Shoots</h6>
+                       <p class="card-text">
+                           Give you best quality and attractive product with a proper lighting.
+                       </p>
+
+                       <a class="btn btn-sm btn-primary" href="#">More info</a>   
+                   </div>
+              </div>
+
+              <div class="card">
+                   <img class="card-img-top" src="./images/B.jpeg">
+                   <div class="card-body">
+                        <h6 class="card-title">Indoor Shoots</h6>
+                        <p class="card-text">
+                            Our editing make small touch-ups to enhance an already beautiful piece of art.
+                        </p>
+                
+                       <a class="btn  btn-dark" href="#">More info</a>   
+                   </div>
+              </div>
+
+                <div class="card">
+                   <img class="card-img-top" src="./images/R.jpeg">
+                   <div class="card-body">
+                        <h6 class="card-title">Modern Shoots</h6>
+                        <p class="card-text">
+                            Give you best shoots with proctection to display your prized artwork and amazing charity.
+                        </p>
+                         <a class="btn btn-sm btn-primary" href="#">More info</a>    
+                   </div>
+               </div>
+          </div>
+  
+
+        
+      <div class="dropdown-divider"></div>
+           <h2>Photograph</h2>
+
+      <!-- cards -->
+
+      <div class="card-deck">
+          <div class="card">
+               <img class="card-img-top" src="./images/photo 1.jpeg">
+              <div class="card-body">
+                  <h6 class="card-title">Photograph</h6>
+                  <p class="card-text">
+                      Give you best shoots with proctection to display your prized artwork and amazing charity.
+                  </p>
+                  <p class="text-center"><a class="btn btn-sm btn-secondary" href="#">More info</a></p>   
+               </div>
+           </div>
+
+           <div class="card">
+                <img class="card-img-top" src="./images/photo 4.jpeg">
+                 <div class="card-body">
+                     <h6 class="card-title">Photograph</h6>
+                     <p class="card-text">You likely already have some brands in mind that you love.</p> 
+                     <a class="btn  btn-dark" href="#">More info</a>   
+                 </div>
+           </div>
+
+           <div class="card">
+                <img class="card-img-top" src="./images/photo 3.jpeg">
+              <div class="card-body">
+                  <h6 class="card-title">Outdoor Shoot</h6>
+                  <p class="card-text">
+                      We make a huge difference in the clarity and quality of your productand they are not necessarily difficult to use.
+                  </p>
+                  <a class="btn btn-sm btn-primary" href="#">Add to cart</a>    
+              </div>
+           </div>
+       </div>
+
+       <div class="dropdown-divider"></div>
+           <h2>Digital Arts</h2>
+
+       <!-- cards -->
+
+      <div class="card-deck">
+          <div class="card">
+               <img class="card-img-top" src="./images/img6.jpeg">
+              <div class="card-body">
+                  <h6 class="card-title">Digital Arts</h6>
+                  <p class="card-text">
+                      Give you best quality and attractive product with a proper lighting.
+                  </p>
+                  <p class="text-center"><a class="btn btn-sm btn-primary" href="#">Add to cart</a>   
+               </div>
+           </div>
+
+           <div class="card">
+                  <img class="card-img-top" src="./images/SHOP 7.jpeg">
+                 <div class="card-body">
+                     <h6 class="card-title">Digital Arts</h6>
+                     <p class="card-text">
+                          Our editing make small touch-ups to enhance an already beautiful piece of art.
+                     </p> 
+                     <a class="btn  btn-dark" href="#">More info</a>   
+                 </div>
+           </div>
+
+           <div class="card">
+                <img class="card-img-top" src="./images/digital.jpeg">
+              <div class="card-body">
+                  <h6 class="card-title">Digital Arts</h6>
+                  <p class="card-text">
+                      There are countless yet creative ways to mount these items,when you are open to suggestion,your satisfaction is guaranteed.
+                  </p>
+                  <a class="btn btn-sm btn-primary" href="#">More info</a>    
+              </div>
+           </div>
+       </div>
+       <div class="dropdown-divider"></div>
+       <h2>Customizes</h2>
+
+       <!-- cards -->
+
+      <div class="card-deck">
+         <div class="card">
+             <img class="card-img-top" src="./images/any.jpeg">
+             <div class="card-body">
+                 <h6 class="card-title">Birthday Present</h6>
+                  <p class="card-text">
+                       Adding a colored mat property will help to contrast the original color of a picture.
+                  </p>
+                  <p class="text-center"><a class="btn btn-sm btn-secondary" href="#">More info</a></p>   
+             </div>
+          </div>
+
+          <div class="card">
+              <img class="card-img-top" src="./images/pcase.jpeg">
+             <div class="card-body">
+                  <h6 class="card-title">Phones Case</h6>
+                  <p class="card-text">
+                       We makes our limit edits like tweaking the saturation or even masking small flaws within your product.
+                  </p> 
+                  <a class="btn  btn-dark" href="#">More info</a>   
+             </div>
+          </div>
+
+          <div class="card">
+               <img class="card-img-top" src="./images/bgift.jpeg">
+              <div class="card-body">
+                  <h6 class="card-title">Anything Customizable</h6>
+                  <p class="card-text">
+                     Give you best shoots with proctection to display your prized artwork and amazing charity.
+                  </p>
+                  <a class="btn btn-sm btn-primary" href="#">More info</a>    
+              </div>
+           </div>
+       </div>
+   </div>
+
+   <footer class="container-fluid bg-dark  p-5">
+        <div class="row">
+              <div class="col-sm-3">
+                   <h6 class="text-secondary">Home</h6>
+                   <hr>
+                   <p>
+                        <a href="#">Home</a>
+                        <br><a href="#">Project</a>
+                        <br><a href="#">Contact</a>
+                   </p>
+              </div>
+ 
+              <div class="col-sm-3">
+                   <h6 class="text-secondary">Project</h6>
+                   <hr>
+                   <p>
+                        <a href="#">Photograph</a>
+                        <br><a href="#">Graphics</a>
+                        <br><a href="#">Framing</a>
+                   </p>
+              </div>
+ 
+              <div class="col-sm-3">
+                   <h6 class="text-secondary">Shop</h6>
+                   <hr>
+                   <p>
+                        <a href="#">Photograph</a>
+                        <br><a href="#">Graphics</a>
+                        <br><a href="#">Framing</a>
+                   </p>
+              </div>
+ 
+              <div class="col-sm-3" id="contactAnchor">
+                   <h6 class="text-secondary">contact</h6>
+                   <hr>
+                   <p>
+                       <i class="fas fa-at"></i> adamsabboy@gmail.com
+                   </p>
+                   <p>
+                       <i class="fab fa-google"></i>google
+                      <br><i class="fab fa-twitter"></i>twitter
+                      <br><i class="fab fa-facebook"></i>Facebook
+                     <br><i class="fab fa-instagram-square"></i>Instagram
+                   </p>
+            </div>
+ 
+        </div>
+ 
+        <p class="text-center"> Bjnocion Media &copy; 2021</p>
+   </footer>
+
+
+
+
+</body>
+</html>
